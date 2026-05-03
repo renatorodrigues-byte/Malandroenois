@@ -4,8 +4,8 @@
 const EXTERNAL_SHEET_ID = '1ExFP9LbhEQKLTShn3iM_5UsYBdETivTk81qH8EcwNFI';
 
 // Coluna da planilha ROTA HOJE que contém o HORÁRIO do motorista
-// (coluna D = índice 3, coluna E = índice 4, etc.)
-const ROTA_HOJE_COLUNA_HORARIO = 4; // << AJUSTE SE NECESSÁRIO (4 = coluna E)
+// (coluna D = índice 3, coluna E = índice 4, coluna L = índice 11, etc.)
+const ROTA_HOJE_COLUNA_HORARIO = 11; // coluna L
 // ============================================================
 
 function verificarMotoristas() {
